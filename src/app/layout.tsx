@@ -1,3 +1,4 @@
+import { Header } from '@/widgets/header';
 import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 import './globals.css';
@@ -23,6 +24,7 @@ export default function RootLayout({
             <body
                 className={`flex h-screen flex-col ${poppins.variable} antialiased`}
             >
+                <Header />
                 <main>{children}</main>
             </body>
         </html>
