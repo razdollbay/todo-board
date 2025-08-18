@@ -1,0 +1,23 @@
+{
+    "plugins": ["prettier-plugin-tailwindcss"],
+    "printWidth": 60,
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "bracketSameLine": false,
+    "endOfLine": "lf",
+    "overrides": [
+        {
+            "files": ["*.md"],
+            "options": { "proseWrap": "always" }
+        },
+        {
+            "files": ["*.yml", "*.yaml"],
+            "options": { "singleQuote": false }
+        }
+    ]
+}
