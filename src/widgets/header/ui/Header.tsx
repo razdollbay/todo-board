@@ -48,7 +48,7 @@ export const Header = () => {
                             Sign In
                         </Link>
                     </li>
-                    <li>
+                    <li className="md:hidden">
                         <BurgerMenu />
                     </li>
                 </ul>

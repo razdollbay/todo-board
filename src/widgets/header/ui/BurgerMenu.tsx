@@ -22,7 +22,6 @@ export const BurgerMenu = () => {
                 onClick={() => setOpen((prev) => !prev)}
                 variant="outline"
                 size="icon"
-                className="md:hidden"
             >
                 <MenuIcon />
             </Button>
